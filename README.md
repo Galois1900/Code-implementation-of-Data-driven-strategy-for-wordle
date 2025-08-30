@@ -2,8 +2,6 @@
 ERP reproducibility pack
 # MSc Data Science Research Project: Advanced Wordle Solvers
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 This repository contains the code and documentation for my MSc Data Science Extended Research Project. The project explores and compares three distinct approaches to solving the Wordle puzzle:
 
 1.  **Heuristic Baseline (`heuristic_solver.py`)**: A rule-based solver using letter and position frequency analysis.
