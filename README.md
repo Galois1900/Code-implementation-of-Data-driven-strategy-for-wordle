@@ -1,12 +1,10 @@
-# Code-implementation-of-Data-driven-strategy-for-wordle
-ERP reproducibility pack
-# MSc Data Science Research Project: Advanced Wordle Solvers
+# Code implementation of Data-driven strategy for Wordle
 
 This repository contains the code and documentation for my MSc Data Science Extended Research Project. The project explores and compares three distinct approaches to solving the Wordle puzzle:
 
 1.  **Heuristic Baseline (`heuristic_solver.py`)**: A rule-based solver using letter and position frequency analysis.
 2.  **Entropy-Optimized Solver (`entropy_solver.py`)**: An information-theoretic approach that maximizes information gain, featuring a second-guess lookup table.
-3.  **Reinforcement Learning Solver (`rl_solver.py`)**: A advanced Dueling Double DQN agent trained with Behavioral Cloning and Conservative Q-Learning (CQL).
+3.  **Reinforcement Learning Solver (`rl_solver.py`)**: A Dueling Double DQN agent trained with Behavioral Cloning and Conservative Q-Learning (CQL).
 
 ## 📊 Quick Results Summary
 
@@ -81,21 +79,6 @@ python src/rl_solver.py --eval-only --model-path path/to/wordle_dqn_enhanced.pth
 ```
 *Outputs will be saved in the `figs_rl/` directory and results printed to the console.*
 
-## 📁 Project Structure
-
-```
-msc-wordle-project/
-├── data/               # Word lists directory (see 'Data Preparation')
-├── src/                # Source code
-│   ├── heuristic_solver.py
-│   ├── entropy_solver.py
-│   └── rl_solver.py    # Main RL training & evaluation script
-├── notebooks/          # Exploratory data analysis (optional)
-├── models/             # For storing pre-trained models
-├── requirements.txt    # Pip dependencies
-├── environment.yml     # Conda environment specification
-└── README.md          # This file
-```
 
 ## 🛠️ Dependencies
 
