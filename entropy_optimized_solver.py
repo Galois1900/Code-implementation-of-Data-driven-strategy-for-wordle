@@ -518,4 +518,5 @@ def run_plots_simple(games=3000, outdir="figs_eh_simple"):
 # ======================
 if __name__ == "__main__":
     # Run simulation with visualization
-    run_plots_simple(games=5000, outdir="figs_eh_simple")
+
+    run_plots_simple(games=3000, outdir="figs_eh_simple")
