@@ -41,13 +41,13 @@ This repository contains the code and documentation for my MSc Data Science Exte
 
 ### Data Preparation
 
-The solvers require the official Wordle word lists.
-1.  Download the answer list (`wordlist_nyt20230701_hidden.txt`) and the allowed guess list (`wordlist_nyt20220830_all.txt`).
-2.  Place these two files in the `data/` directory.
+The solvers require two text files representing the Wordle word lists:
 
-*(Note: Due to copyright, the word lists cannot be distributed here. A quick web search will help you find them.)*
+- `wordlist_hidden.txt` — answer list (five-letter words)  
+- `wordlist_all.txt` — allowed guess list (five-letter words)  
+- Once obtained, place both files under the `./data/` directory, keeping the exact filenames above.  
 
-## 🧪 How to Run
+## How to Run
 
 ### 1. Heuristic Baseline Solver
 Run 3000 simulations and generate performance plots.
@@ -80,7 +80,7 @@ python src/rl_solver.py --eval-only --model-path path/to/wordle_dqn_enhanced.pth
 *Outputs will be saved in the `figs_rl/` directory and results printed to the console.*
 
 
-## 🛠️ Dependencies
+## Dependencies
 
 Core dependencies are listed in `requirements.txt` and `environment.yml`. The main libraries include:
 - `torch` (PyTorch for deep learning)
