@@ -24,10 +24,6 @@ This repository contains the code and documentation for my MSc Data Science Exte
 ### Installation
 
 1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
-    ```
 
 2.  **Set up the environment (using Conda is recommended)**
     ```bash
@@ -73,7 +69,7 @@ python src/rl_solver.py
 *The trained model will be saved as `wordle_dqn_enhanced.pth`.*
 
 #### To Evaluate a Pre-trained Model
-We provide a pre-trained model. Contact me for access.
+We provide a pre-trained model.
 ```bash
 python src/rl_solver.py --eval-only --model-path path/to/wordle_dqn_enhanced.pth
 ```
