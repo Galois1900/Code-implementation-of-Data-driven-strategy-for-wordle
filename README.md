@@ -10,9 +10,9 @@ This repository contains the code and documentation for my MSc Data Science Exte
 
 | Solver | Average Attempts (95% CI) | Success Rate (95% CI) | Key Feature |
 | :--- | :--- | :--- | :--- |
-| **Heuristic Baseline** | ~3.85 | ~98.5% | Letter frequency scoring |
-| **Entropy-Optimized** | ~3.62 | ~99.2% | Second-guess lookup table |
-| **RL (Ours)** | ~3.48| ~99.6%| Dueling-DDQN + BC + CQL |
+| **Heuristic Baseline** | ~3.80 | ~98.4% | Letter frequency scoring |
+| **Entropy-Optimized** | ~3.68 | ~98.6% | Second-guess lookup table |
+| **RL (Ours)** | ~3.64| ~99.6%| Dueling-DDQN + BC + CQL |
 
 ## Getting Started
 
