@@ -21,6 +21,14 @@ This repository contains the code and documentation for my MSc Data Science Exte
 *   Python 3.8+
 *   pip or conda
 
+### Dependencies
+
+The main libraries include:
+- `torch` (PyTorch for deep learning)
+- `numpy` (numerical computations)
+- `matplotlib` (plotting results)
+- `wordfreq` (for word frequency data)
+
 ### Installation
 
 1.  **Clone the repository**
@@ -76,10 +84,4 @@ python src/rl_solver.py --eval-only --model-path path/to/wordle_dqn_enhanced.pth
 *Outputs will be saved in the `figs_rl/` directory and results printed to the console.*
 
 
-## Dependencies
 
-Core dependencies are listed in `requirements.txt` and `environment.yml`. The main libraries include:
-- `torch` (PyTorch for deep learning)
-- `numpy` (numerical computations)
-- `matplotlib` (plotting results)
-- `wordfreq` (for word frequency data)
